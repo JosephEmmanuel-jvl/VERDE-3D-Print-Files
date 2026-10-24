@@ -31,9 +31,14 @@ Recommended material: PETG for the rack parts. The mounting design uses through-
 
 ### Aphid props
 
-Print `print/Aphids/VERDE_APHIDS_WITH_LEGS_4X.stl` once. It contains four separate aphid props. Each aphid is approximately 8.93 x 6.42 x 3.36 mm and includes six legs, two antennae, and two cornicles.
+Print both files once:
 
-Recommended starting settings: PLA or PETG, 0.10-0.12 mm layer height, slow outer walls, and no support if the slicer preview shows all legs contacting the build plate. Use a brim if bed adhesion is weak.
+1. `print/Aphids/VERDE_APHIDS_WITH_LEGS_4X.stl` — contains four separate small aphid props. Each aphid is approximately 8.93 x 6.42 x 3.36 mm and includes six legs, two antennae, and two cornicles.
+2. `print/Aphids/VERDE_LARGE_APHID_WITH_LEGS_PRINT_ONE.stl` — contains one detailed large aphid, approximately 82.57 x 114.99 x 117.90 mm.
+
+Recommended small-aphid starting settings: PLA or PETG, 0.10-0.12 mm layer height, slow outer walls, and no support if the slicer preview shows all legs contacting the build plate. Use a brim if bed adhesion is weak.
+
+For the large aphid, inspect the slicer preview carefully and use supports where required under the body, legs, and antennae. Confirm the approximately 118 mm height fits the printer before slicing.
 
 ## Important verification limits
 
@@ -46,3 +51,5 @@ Recommended starting settings: PLA or PETG, 0.10-0.12 mm layer height, slow oute
 ## Integrity
 
 `SHA256SUMS.txt` records the SHA-256 checksum of every included STL. No rejected or superseded models are included.
+
+See `ATTRIBUTION.md` for the required credit for the large aphid model.
