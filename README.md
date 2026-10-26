@@ -1,6 +1,6 @@
 # VERDE 3D Print Files
 
-This repository contains the approved STL candidates for the VERDE thesis sensor rack and four camera-visible aphid props.
+This repository contains the approved STL candidates for the VERDE thesis sensor rack, camera-visible aphid props, and an articulated cabbage-looper test prop.
 
 ## Files to print
 
@@ -40,13 +40,25 @@ Recommended small-aphid starting settings: PLA or PETG, 0.10-0.12 mm layer heigh
 
 For the large aphid, inspect the slicer preview carefully and use supports where required under the body, legs, and antennae. Confirm the approximately 118 mm height fits the printer before slicing.
 
+### Cabbage-looper prop
+
+Print one copy:
+
+1. `print/Cabbage Looper/VERDE_CABBAGE_LOOPER_ARTICULATED_PRINT_IN_PLACE_60MM.stl`
+
+This is a seven-section print-in-place articulated prop measuring approximately **60.0 x 9.80 x 6.74 mm**. It uses six side-to-side hinge joints with approximately 0.60 mm radial clearance.
+
+Recommended first-print settings: PLA, 0.4 mm nozzle, 0.12-0.16 mm layer height, three walls, and the supplied flat orientation. **Disable generated supports**, and do not use a brim that bridges the moving-joint gaps. After the print has fully cooled, free each joint gently and individually.
+
+The STL passed digital topology checks: seven closed components, zero boundary edges, and zero non-manifold edges. Actual printed movement, joint durability, and camera-detection performance still require physical testing.
+
 ## Important verification limits
 
 - These are STL models, not G-code. The printer operator must slice them for the actual printer, nozzle, and material.
 - Inspect every slicer preview for scale in millimetres, missing layers, unsupported features, and bed fit before printing.
 - Holder sizes 1/3/5/7 were selected from the snug coupon set, but final fit still requires physical testing with the actual probes.
 - Reservoir lid clearance, waterproofing, foam compression, fastener length, PETG strength, and final assembled load have not been physically validated.
-- The aphids are controlled visual test props. Detecting them does not by itself prove performance on real insects in field conditions.
+- The aphids and cabbage looper are controlled visual test props. Detecting them does not by itself prove performance on real insects in field conditions.
 
 ## Integrity
 
